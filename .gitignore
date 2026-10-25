@@ -49,6 +49,7 @@ storage/media/*
 scratch/
 tmp/
 temp/
+*.zip
 
 # IDE & OS files
 .vscode/
