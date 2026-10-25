@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# SQLite databases & logs
+storage/*.db*
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+*.log
+
+# Media files generated during testing & uploads
+storage/media/*
+!storage/media/.gitkeep
+
+# Temporary / Scratch
+scratch/
+tmp/
+temp/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Antigravity agent temp artifacts
+.gemini/
+.agents/
